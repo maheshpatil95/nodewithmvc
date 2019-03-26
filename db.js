@@ -1,9 +1,9 @@
 const mysql=require('mysql');
 const connectionString={
-    host:'192.168.1.80',
-    user:'root',
-    password:'pass',
-    database:'onemeetingbeta'
+    host:'',
+    user:'',
+    password:'',
+    database:''
 }
 
 var db;
@@ -20,5 +20,7 @@ const connectDb=()=>{
     
 
 }
+
+
 
 module.exports=connectDb();
