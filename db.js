@@ -1,9 +1,9 @@
 const mysql=require('mysql');
 const connectionString={
-    host:'',
-    user:'',
-    password:'',
-    database:''
+    host:'192.168.1.80',
+    user:'root',
+    password:'pass',
+    database:'onemeetingbeta'
 }
 
 var db;
@@ -17,8 +17,6 @@ const connectDb=()=>{
         }
     })
     return db;
-    
-
 }
 
 
